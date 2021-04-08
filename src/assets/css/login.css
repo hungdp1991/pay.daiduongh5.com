@@ -1,0 +1,190 @@
+
+.login_container .row-login {
+    display: block;
+    margin-top: 10px;
+    margin-left: 0;
+    width: 80%;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.login_container .row-login p {
+    width: 75%;
+    float: left;
+    line-height: 50px;
+    font-size: 15px;
+}
+.login_container div#btnFacebook {
+    background: #4267b2;
+}
+.login_container div#btnApple {
+    background:grey;
+}
+.login_container i.fa.fa-facebook, i.fa.fa-google, i.fa.fa-apple, i.fa-blank{
+    font-weight: bold;
+    font-size: 30px;
+    height: 100%;
+    width: 25%;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+}
+
+.login_container #btnGoogle {
+    background: #DE4D38;
+}
+.login_container .row-login:hover{
+    opacity: .8;
+}
+.login_container .box-left {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.login_container h4 {
+    color: #6a625a;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 2em;
+    font-family: 'Nunito', sans-serif;
+}
+.login_container .box-right {
+    width: 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Nunito', sans-serif;
+    border-left: 1px solid #b3b3b3;
+}
+.login_container .error {
+    color: #ff5c5c;
+    display: block;
+    font-weight: bolder;
+    width: 100%;
+}
+.login_container #loading {
+    display: none;
+    font-size: 2em;
+    padding: 2px;
+    margin-top: 10px;
+}
+.login_container .controll-label {
+    width: 30%;
+    float: left;
+    line-height: 2em;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+    font-weight: unset;
+    font-size: 16px;
+}
+.login_container input.form-control {
+    width: 70%;
+    float: left;
+    box-shadow: none;
+    height: 35px;
+    padding: 6px;
+    border: solid 1px #bfbfbf;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 1em;
+}
+.login_container .exist-account {
+    line-height: 40px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+.login_container #submitbutton {
+    width: 70%;
+    background: #d6682e;
+    border: 0;
+    font-size: 16px;
+    float: right;
+    color: #fff;
+    padding: 8px;
+    display: block;
+    text-transform: uppercase;
+}
+.login_container #submitbutton:hover{
+    background: #a25024;
+}
+.login_container label span {
+    font-weight: bolder;
+    color: #444;
+}
+.login_container .forget-password {
+    width: 100%;
+    float: right;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 16px;
+    display: block;
+}
+.login_container #loading {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+.errorInput
+{
+    display: block;
+    color: red;
+}
+
+@media only screen and (max-width: 992px) {
+    .login_container .box-left {
+        width: 100%;
+        float: unset;
+        padding-left:10%;
+        padding-right:10%;
+    }
+
+    .login_container h4 {
+        margin-bottom: 1em;
+    }
+
+    .login_container .box-right {
+        border: 0;
+        width: 100%;
+    }
+
+    .login_container .controll-label {
+        width: 100%;
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .login_container input.form-control {
+        width: 100%;
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .login_container #submitbutton {
+        width: 100%;
+        margin-top: 6px;
+    }
+
+    .login_container #loading {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+    .login_container .forget-password {
+        font-size: 13px;
+    }
+
+    .login_container .exist-account {
+        font-size: 13px;
+    }
+    .login_container .row-login {
+        width: 100%;
+        display: block;
+    }
+}
+ 

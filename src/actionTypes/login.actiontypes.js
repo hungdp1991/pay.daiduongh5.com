@@ -1,0 +1,11 @@
+const loginActionTypes = {
+    LOGIN_RESQUEST: 'LOGIN_RESQUEST',
+    LOGIN_SUCCESS: 'LOGIN_SUCCESS',
+    LOGIN_FAILURE: 'LOGIN_FAILURE',
+    LOGOUT: 'LOGOUT',
+
+    LOGIN_FACEBOOK: 'LOGIN_FACEBOOK',
+    LOGIN_GOOGLE: 'LOGIN_GOOGLE',
+    LOGIN_APPLE: 'LOGIN_APPLE',
+}
+export default  loginActionTypes;
